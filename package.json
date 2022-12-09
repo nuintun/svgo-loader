@@ -1,6 +1,6 @@
 {
-  "name": "svgo-loader",
-  "version": "1.0.0",
+  "name": "@nuintun/svgo-loader",
+  "version": "0.0.1",
   "description": "svgo loader for webpack.",
   "main": "index.js",
   "repository": {
