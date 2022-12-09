@@ -1,0 +1,30 @@
+{
+  "name": "svgo-loader",
+  "version": "1.0.0",
+  "description": "svgo loader for webpack.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuintun/svgo-loader.git"
+  },
+  "keywords": [
+    "svgo",
+    "loader",
+    "webpack"
+  ],
+  "author": {
+    "name": "nuintun",
+    "email": "nuintun@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuintun/svgo-loader/issues"
+  },
+  "homepage": "https://github.com/nuintun/svgo-loader#readme",
+  "dependencies": {
+    "svgo": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
