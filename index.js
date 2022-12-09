@@ -19,13 +19,9 @@ module.exports = function loader(content, sourceMap, additionalData) {
 
   resolveConfig(configFile, this.context).then(
     config => {
-      const result = optimize(content, { ...config, ...options, path });
+      const { data } = optimize(content, { ...config, ...options, path });
 
-      if (result.error) {
-        callback(new Error(result.error));
-      } else {
-        callback(null, result.data, sourceMap, additionalData);
-      }
+      callback(null, data, sourceMap, additionalData);
     },
     error => {
       callback(error);
