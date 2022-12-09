@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "svgo loader for webpack.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuintun/svgo-loader.git"
