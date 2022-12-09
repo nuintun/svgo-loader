@@ -1,5 +1,5 @@
 /**
- * @module svgo
+ * @module index
  */
 
 const { loadConfig, optimize } = require('svgo');
