@@ -6,6 +6,10 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run format"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuintun/svgo-loader.git"
