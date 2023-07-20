@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "prettier": "^3.0.0",
-    "webpack": "^5.88.1"
+    "webpack": "^5.88.2"
   },
   "peerDependencies": {
     "webpack": "^5.0.0"
