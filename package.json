@@ -32,7 +32,7 @@
     "svgo": "^3.0.2"
   },
   "devDependencies": {
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "webpack": "^5.88.2"
   },
   "peerDependencies": {
