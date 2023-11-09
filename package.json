@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "svgo loader for webpack.",
   "main": "index.js",
   "files": [
@@ -29,7 +29,7 @@
     "format": "prettier --write . --ignore-path .prettierignore"
   },
   "dependencies": {
-    "svgo": "^3.0.2"
+    "svgo": "^3.0.3"
   },
   "devDependencies": {
     "prettier": "^3.0.3",
