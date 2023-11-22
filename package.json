@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/nuintun/svgo-loader#readme",
   "scripts": {
-    "test": "node tests",
     "lint": "tsc --noEmit",
     "clean": "node tools/clean.js",
     "prepublishOnly": "npm run build",
