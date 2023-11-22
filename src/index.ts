@@ -2,9 +2,10 @@
  * @module index
  */
 
+import { schema } from './schema';
+import { Options } from './interface';
 import { LoaderDefinition } from 'webpack';
 import { Config, loadConfig, optimize } from 'svgo';
-import { Options } from './interface';
 
 async function resolveConfig(
   configFile?: string | false,
@@ -21,7 +22,7 @@ async function resolveConfig(
 export default (function loader(content, sourceMap, additionalData) {
   const callback = this.async();
   const path = this.resourcePath;
-  const { configFile, ...options } = this.getOptions();
+  const { configFile, ...options } = this.getOptions(schema);
 
   resolveConfig(configFile, this.context).then(
     config => {
