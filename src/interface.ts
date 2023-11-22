@@ -5,7 +5,7 @@
 import { Config } from 'svgo';
 import { LoaderContext } from 'webpack';
 
-export type Options = Config & {
+export type Options = Omit<Config, 'path'> & {
   configFile?: string | false;
 };
 

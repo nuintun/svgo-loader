@@ -7,10 +7,6 @@ import { Schema } from './interface';
 export const schema: Schema = {
   type: 'object',
   properties: {
-    path: {
-      type: 'string',
-      description: 'The path to specify.'
-    },
     configFile: {
       anyOf: [
         {
