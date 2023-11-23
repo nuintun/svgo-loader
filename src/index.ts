@@ -7,6 +7,9 @@ import { Options } from './interface';
 import { LoaderDefinition } from 'webpack';
 import { Config, loadConfig, optimize } from 'svgo';
 
+// 导出接口定义
+export { Options };
+
 async function resolveConfig(
   configFile?: string | false,
   context?: string
@@ -15,8 +18,7 @@ async function resolveConfig(
     return null;
   }
 
-  // @ts-ignore
-  return await loadConfig(configFile, context);
+  return await loadConfig(configFile as string, context);
 }
 
 export default (function loader(content, sourceMap, additionalData) {
