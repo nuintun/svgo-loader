@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
@@ -11,6 +11,11 @@
     "require": "./cjs/index.cjs",
     "types": "./types/index.d.ts"
   },
+  "files": [
+    "cjs",
+    "esm",
+    "types"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuintun/svgo-loader.git"
