@@ -44,6 +44,6 @@ export default function rollup(esnext) {
         warn(error);
       }
     },
-    external: ['path', 'tslib', 'svgo', 'css-tree']
+    external: ['path', ...Object.keys(pkg.dependencies)]
   };
 }
