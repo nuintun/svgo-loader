@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
@@ -46,7 +46,7 @@
     "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir types && node tools/fix-types.js"
   },
   "dependencies": {
-    "svgo": "^3.2.0",
+    "svgo": "^3.3.0",
     "tslib": "^2.6.2"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "magic-string": "^0.30.10",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
-    "rollup": "^4.17.0",
+    "rollup": "^4.17.2",
     "tsc-alias": "^1.8.8",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0"
