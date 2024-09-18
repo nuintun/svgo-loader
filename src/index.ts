@@ -28,6 +28,9 @@ async function resolveConfig(
   return await loadConfig(configFile, context);
 }
 
+/**
+ * @function loader
+ */
 const loader: LoaderDefinition<Options> = function (content, sourceMap, additionalData) {
   const callback = this.async();
   const path = this.resourcePath;
