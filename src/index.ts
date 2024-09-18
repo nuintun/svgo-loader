@@ -43,4 +43,4 @@ export default (function loader(content, sourceMap, additionalData) {
       callback(error);
     }
   );
-} as LoaderDefinition<Options>);
+} satisfies LoaderDefinition<Options>);
