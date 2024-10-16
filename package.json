@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "svgo": "^3.3.2",
-    "tslib": "^2.7.0"
+    "tslib": "^2.8.0"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.0",
