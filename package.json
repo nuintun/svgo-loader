@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.1",
+    "@rspack/core": "^1.1.1",
     "magic-string": "^0.30.12",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
@@ -63,6 +64,15 @@
     "webpack": "^5.96.1"
   },
   "peerDependencies": {
+    "@rspack/core": "^1.0.0",
     "webpack": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@rspack/core": {
+      "optional": true
+    },
+    "webpack": {
+      "optional": true
+    }
   }
 }
