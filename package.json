@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
@@ -52,7 +52,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "@rspack/core": "^1.1.8",
-    "dts-paths": "^1.0.2",
+    "dts-paths": "^1.0.3",
     "magic-string": "^0.30.17",
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
