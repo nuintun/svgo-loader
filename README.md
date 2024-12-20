@@ -19,4 +19,4 @@
 [side-effect-image]: https://img.shields.io/badge/side--effect-free-brightgreen?style=flat-square
 [bundle-phobia-url]: https://bundlephobia.com/result?p=@nuintun/svgo-loader
 [license-image]: https://img.shields.io/github/license/nuintun/svgo-loader?style=flat-square
-[license-url]: https://github.com/nuintun/svgo-loader/blob/master/LICENSE
+[license-url]: https://github.com/nuintun/svgo-loader/blob/main/LICENSE
