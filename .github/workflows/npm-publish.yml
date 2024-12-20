@@ -2,6 +2,7 @@ name: Release to NPM
 
 on:
   workflow_dispatch:
+    # Manually trigger.
 
 jobs:
   release:
@@ -26,4 +27,3 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-          
