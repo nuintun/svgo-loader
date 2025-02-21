@@ -23,6 +23,7 @@
   "keywords": [
     "svgo",
     "loader",
+    "rspack",
     "webpack"
   ],
   "author": {
