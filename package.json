@@ -1,13 +1,14 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
   "module": "esm/index.js",
   "exports": {
     "import": "./esm/index.js",
-    "require": "./cjs/index.cjs"
+    "require": "./cjs/index.cjs",
+    "default": "./esm/index.js"
   },
   "files": [
     "cjs",
@@ -53,7 +54,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "@rspack/core": "^1.2.8",
-    "dts-paths": "^1.1.4",
+    "dts-paths": "^1.1.5",
     "magic-string": "^0.30.17",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
