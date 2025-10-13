@@ -1,6 +1,6 @@
 {
   "name": "@nuintun/svgo-loader",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "svgo loader for webpack.",
   "type": "module",
   "main": "cjs/index.cjs",
@@ -53,13 +53,13 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.4",
-    "@rspack/core": "^1.5.7",
-    "dts-paths": "^1.1.12",
+    "@rspack/core": "^1.5.8",
+    "dts-paths": "^1.1.13",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
-    "rollup": "^4.52.2",
-    "typescript": "^5.9.2",
-    "webpack": "^5.101.3"
+    "rollup": "^4.52.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1"
   },
   "peerDependencies": {
     "@rspack/core": "^1.0.0",
