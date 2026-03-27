@@ -21,6 +21,9 @@ importers:
       '@rspack/core':
         specifier: ^1.7.10
         version: 1.7.10
+      '@types/node':
+        specifier: ^25.5.0
+        version: 25.5.0
       dts-paths:
         specifier: ^2.1.2
         version: 2.1.2(typescript@6.0.2)
@@ -470,8 +473,8 @@ packages:
     peerDependencies:
       typescript: '>=5.0.0'
 
-  electron-to-chromium@1.5.326:
-    resolution: {integrity: sha512-uRBlUfKKdsXMkiiOurgaybNC10tjrD+skXLEg7NHbm6h0uAoqj3xMb9uue5BfcSCXJ4mcyJMOucI6q55D7p6KQ==}
+  electron-to-chromium@1.5.327:
+    resolution: {integrity: sha512-hLxLdIJDf8zIzKoH2TPCs+Botc+wUmj9sp4jVMwklY/sKleM8xxxOExRX3Gxj73nCXmJe3anhG7SvsDDPDvmuQ==}
 
   enhanced-resolve@5.20.1:
     resolution: {integrity: sha512-Qohcme7V1inbAfvjItgw0EaxVX5q2rdVEZHRBrEQdRZTssLDGsL8Lwrznl8oQ/6kuTJONLaDcGjkNP247XEhcA==}
@@ -1088,7 +1091,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.11
       caniuse-lite: 1.0.30001781
-      electron-to-chromium: 1.5.326
+      electron-to-chromium: 1.5.327
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -1150,7 +1153,7 @@ snapshots:
       tslib: 2.8.1
       typescript: 6.0.2
 
-  electron-to-chromium@1.5.326: {}
+  electron-to-chromium@1.5.327: {}
 
   enhanced-resolve@5.20.1:
     dependencies:

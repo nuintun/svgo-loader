@@ -15,6 +15,9 @@
     "noImplicitOverride": true,
     "noUnusedParameters": true,
     "moduleResolution": "bundler",
+    "types": [
+      "node"
+    ],
     "paths": {
       "/*": [
         "./src/*"

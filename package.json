@@ -38,11 +38,11 @@
   "homepage": "https://github.com/nuintun/svgo-loader#readme",
   "scripts": {
     "lint": "tsc --noEmit",
-    "clean": "node tools/clean.js",
+    "clean": "node tools/clean.ts",
     "prepublishOnly": "pnpm build",
-    "build:cjs": "rollup -c tools/rollup.cjs.js",
-    "build:esm": "rollup -c tools/rollup.esm.js",
-    "build:fix-types": "node tools/fix-types.js",
+    "build:cjs": "rollup -c tools/rollup.cjs.ts",
+    "build:esm": "rollup -c tools/rollup.esm.ts",
+    "build:fix-types": "node tools/fix-types.ts",
     "build": "pnpm clean && pnpm build:main && pnpm format",
     "format": "prettier --write . --ignore-path .prettierignore",
     "build:main": "pnpm build:cjs && pnpm build:esm && pnpm build:fix-types"
@@ -54,6 +54,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.3.0",
     "@rspack/core": "^1.7.10",
+    "@types/node": "^25.5.0",
     "dts-paths": "^2.1.2",
     "prettier": "^3.8.1",
     "rimraf": "^6.1.3",
