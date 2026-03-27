@@ -28,7 +28,7 @@ async function resolveConfig(configFile?: string | false, context?: string): Pro
 /**
  * @function loader
  */
-const loader: LoaderDefinition<Options> = function (content, sourceMap, additionalData) {
+export const loader: LoaderDefinition<Options> = function (content, sourceMap, additionalData) {
   const callback = this.async();
   const path = this.resourcePath;
   const { configFile, ...options } = this.getOptions(schema);
@@ -44,5 +44,3 @@ const loader: LoaderDefinition<Options> = function (content, sourceMap, addition
     }
   );
 };
-
-export default loader;
