@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      svgo:
-        specifier: ^4.0.1
-        version: 4.0.1
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -36,6 +33,9 @@ importers:
       rollup:
         specifier: ^4.60.0
         version: 4.60.0
+      svgo:
+        specifier: ^4.0.1
+        version: 4.0.1
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
