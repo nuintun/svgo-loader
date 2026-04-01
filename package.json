@@ -6,9 +6,16 @@
   "main": "cjs/index.cjs",
   "module": "esm/index.js",
   "exports": {
-    "import": "./esm/index.js",
-    "require": "./cjs/index.cjs",
-    "default": "./esm/index.js"
+    ".": {
+      "import": "./esm/webpack/index.js",
+      "require": "./cjs/webpack/index.cjs",
+      "default": "./esm/webpack/index.js"
+    },
+    "./rspack": {
+      "import": "./esm/rspack/index.js",
+      "require": "./cjs/rspack/index.cjs",
+      "default": "./esm/rspack/index.js"
+    }
   },
   "files": [
     "cjs",
@@ -38,8 +45,10 @@
   "homepage": "https://github.com/nuintun/svgo-loader#readme",
   "scripts": {
     "lint": "tsc --noEmit",
+    "pretest": "pnpm build",
     "clean": "node tools/clean.ts",
     "prepublishOnly": "pnpm build",
+    "test": "node tests/rspack.config.ts",
     "build:cjs": "rollup -c tools/rollup.cjs.ts",
     "build:esm": "rollup -c tools/rollup.esm.ts",
     "build:fix-types": "node tools/fix-types.ts",
