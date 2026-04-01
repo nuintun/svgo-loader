@@ -40,9 +40,9 @@ function createConfig(esnext: boolean, bundler: string): RollupOptions {
     input: 'src/index.ts',
     output: {
       banner,
+      esModule: false,
       interop: 'auto',
       exports: 'named',
-      esModule: false,
       preserveModules: true,
       dir: `${root}/${bundler}`,
       format: esnext ? 'esm' : 'cjs',
