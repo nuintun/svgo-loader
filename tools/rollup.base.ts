@@ -41,7 +41,7 @@ function createConfig(esnext: boolean, bundler: string): RollupOptions {
     output: {
       banner,
       interop: 'auto',
-      exports: 'auto',
+      exports: 'named',
       esModule: false,
       preserveModules: true,
       dir: `${root}/${bundler}`,
