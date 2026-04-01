@@ -7,7 +7,7 @@ import swcrc from './.swcrc.ts';
 import rspack from '@rspack/core';
 import svgorc from './.svgorc.ts';
 
-const mode = 'development';
+const mode = 'production';
 
 const svgoOptions = {
   ...(await svgorc(mode)),
