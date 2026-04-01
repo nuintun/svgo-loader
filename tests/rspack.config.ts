@@ -7,8 +7,6 @@ import swcrc from './.swcrc.ts';
 import rspack from '@rspack/core';
 import svgorc from './.svgorc.ts';
 
-import x from '@nuintun/svgo-loader';
-
 const mode = 'development';
 
 const svgoOptions = {
